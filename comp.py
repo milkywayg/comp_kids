@@ -391,7 +391,8 @@ if len(vld_opr) >=1:
                     bonus_rel=1.1
 
             good_res = int(good_res*bonus_rel)
-            print (Back.CYAN+Fore.WHITE + '\nYour score is: ' + str(good_res))
+            print (Back.CYAN+Fore.WHITE + '\nYour score is: ' + str(good_res)+'\n')
+            print (Back.CYAN+Fore.WHITE + '\nYou got: ' + str(len(list_good_res))+' good answer(s) out of '+str(len(list_good_res)+len(list_bad_res))+'\n')
             if (bonus_fact > 1):
                 good_res = round(good_res*bonus_fact)
                 print (Back.GREEN+Fore.WHITE+"You get a bonus!!!! of ....."+str(round(bonus_fact))+" and now your score is: "+str(good_res))
