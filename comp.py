@@ -1,15 +1,16 @@
-#! /home/miki/anaconda3/bin/python
+#! /usr/bin/python3
 import colorama
 from colorama import Fore, Back, Style
 import os
 import time
 import random as rn
-from tkinter import *
+#from tkinter import *
 from math import *
 import pickle
 import operator
 from timeit import default_timer as timer
 import re
+import sys
 
 os.system('clear')
 
